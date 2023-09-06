@@ -1,7 +1,3 @@
-// Copy the challenges into your JavaScript file. Comment out the instructions and code the solution to each problem beneath the prompt.
-
-// Make sure you try different options and change the variables to ensure properly working code.
-
 // Write a statement that takes a variable of item and logs "in budget" if a price is $100 or less.
 var item = 110;
 if (item <= 100) {
@@ -78,8 +74,7 @@ if (gradePercentage === 100) {
 
 // Write a statement that takes a variable of a boolean, number, or string data type and logs the data type of the variable. HINT: Check out the JavaScript typeof operator.
 var dataTypes = "hello";
-console.log(typeof dataTypes);
-// string
+console.log(typeof dataTypes); // string
 
 // Create a password checker using a single conditional statement. If a user inputs a password with 12 or more characters AND the password includes !, then log "That is a mighty strong password!" If the user’s password is 8 or more characters OR includes !, then log "That password is strong enough." Log "That is not a valid password." for every other input.
 var password = "1234!";
