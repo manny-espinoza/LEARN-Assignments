@@ -1,5 +1,3 @@
-// Copy the challenges into your JavaScript file. Comment out the instructions and code the solution to each problem beneath the prompt
-
 // Write the code that will log the outcome of 34 added to 71.
 console.log(34 + 71); // 105
 
