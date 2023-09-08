@@ -107,3 +107,16 @@ const helloWorld = (code) => {
   }
 };
 console.log(helloWorld("ja")); // こんにちは
+
+// Create a function that determines if a user is old enough to vote (age 18 or older).
+
+const voterAge = (age) => {
+  return age >= 18 ? "Eligible to vote." : "Uneligible to vote.";
+};
+console.log(voterAge(18)); // 
+
+// Create a function that takes in an array of numbers and determines if the number is odd or even.
+
+const arrNums = (arr) => {
+  
+}
