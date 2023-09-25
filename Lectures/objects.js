@@ -174,3 +174,29 @@ console.log(triangleDimensions.getData()); // 5
 
 triangleDimensions.base = 6;
 console.log(triangleDimensions); // { base: 6, height: 5, getData: [Function (anonymous)] }
+
+// Consider this variable:
+
+const learn = {
+  cohorts: {
+    2021: ["Alpha", "Bravo", "Charlie", "Delta", "Echo"],
+    2022: ["Alpha", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf"],
+  },
+};
+
+// Write the code that logs the name of your cohort.
+
+console.log(learn.cohorts[2022][6]); // Golf
+
+// Write the code that uses destructuring to log the name of your cohort.
+
+const { cohorts } = learn;
+console.log(cohorts[2022][6]); // Golf
+
+// Create a function that takes an object like the one above and returns an array with a string of every cohort name and year.
+
+const learnCohorts = (obj) => {
+  return obj[2021].map((value) => `2021 ${value}`);
+};
+
+console.log(learnCohorts(cohorts));
